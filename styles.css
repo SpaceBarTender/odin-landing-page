@@ -99,6 +99,15 @@ button {
     gap: 52px;
 }
 
+.central-imgs {
+    box-sizing: border-box;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 5%;
+    width: 200px;
+}
+
 .info {
-    max-width: 200px;
+    max-width: 150px;
+    text-align: center;
 }
