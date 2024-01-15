@@ -37,9 +37,13 @@ a {
 }
 
 .upper-body-1 {
-    background-color: #1F2937; 
+    background-color: #1F2937;
+    display: flex;
 }
 
+.upper-text {
+    margin-left: 100px;
+}
 
 .main-text {
     font-size: 48px;
@@ -54,4 +58,7 @@ a {
 
 .image {
     width: 300px;
+    margin-right: 100px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
