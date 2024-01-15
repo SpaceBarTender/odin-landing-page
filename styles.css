@@ -127,3 +127,25 @@ button {
     max-width: 150px;
     text-align: center;
 }
+
+.lower-quote {
+background-color: #E5E7EB;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.attribution {
+    text-align: center;
+}
+
