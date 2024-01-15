@@ -92,3 +92,13 @@ button {
     margin-top: 15px;
     
 }
+
+.central {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
