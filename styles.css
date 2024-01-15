@@ -101,10 +101,11 @@ button {
 
 .central-imgs {
     box-sizing: border-box;
+    border: solid;
     border-color: #3882F6;
     border-radius: 8px;
-    padding: 5%;
-    width: 200px;
+    padding: 5px;
+    box-sizing: inherit;
 }
 
 .info {
