@@ -96,6 +96,12 @@ button {
     
 }
 
+button.blue-back {
+    border-color: #F9FAF8;
+    margin-left: auto;
+    margin-right: 12%;
+}
+
 .central {
     display: flex;
     justify-content: center;
@@ -133,6 +139,9 @@ button {
 background-color: #E5E7EB;
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
 .quote {
@@ -142,12 +151,28 @@ flex-direction: column;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    margin-left: 150px;
-    margin-right: 150px;
+    max-width: 800px;
+    flex-shrink: 1;
+    align-items: center;
 }
 
 .attribution {
     display: flex;
     justify-content: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12%;
+}
+
+.call-title {
+    font-size: 20px;
+    font-weight: 700;
 }
 
