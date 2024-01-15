@@ -116,7 +116,11 @@ button {
 
 .center-heading {
     font-size: 36px;
-    
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
 }
 
 .info {
